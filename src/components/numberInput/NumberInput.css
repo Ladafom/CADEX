@@ -1,0 +1,17 @@
+.custom-number-field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 !important;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.custom-input {
+  width: 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-input:active, .custom-input:focus {
+  outline: none;
+}

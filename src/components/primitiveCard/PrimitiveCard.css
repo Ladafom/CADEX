@@ -1,0 +1,27 @@
+.primitiveCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.primitiveCard_selected {
+  background-color: #7F7FFF;
+}
+
+.primitiveCard__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.primitiveCard__type {
+  text-transform: capitalize;
+}
+
+.primitiveCard__color {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #000;
+}

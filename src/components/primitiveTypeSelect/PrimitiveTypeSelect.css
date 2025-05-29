@@ -1,0 +1,49 @@
+.custom-select {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  margin: 0 !important;
+  padding: 5px;
+}
+
+.custom-select__button {
+  background: #fff;
+  border: none;
+  width: 200px;
+  text-align: start;
+  cursor: pointer;
+}
+
+.custom-select__popover {
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.custom-select__listbox {
+  font-family: adobe-clean, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Trebuchet MS, Lucida Grande, sans-serif;
+}
+
+.custom-listitem {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #111827;
+  cursor: pointer;
+}
+
+.custom-listitem:hover {
+  background: #f3f4f6;
+}
+
+.custom-listitem[data-focused] {
+  background: #e5e7eb;
+}
+
+.custom-listitem[data-selected] {
+  background: #4f46e5;
+  color: white;
+  font-weight: 500;
+}
+
+.custom-listitem[data-selected]:hover {
+  background: #4338ca;
+}
