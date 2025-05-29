@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--black);
   padding: 10px;
   cursor: pointer;
 }
 
 .primitiveCard_selected {
-  background-color: #7F7FFF;
+  background-color: var(--selected);
 }
 
 .primitiveCard__info {
@@ -23,5 +23,5 @@
 .primitiveCard__color {
   width: 25px;
   height: 25px;
-  border: 2px solid #000;
+  border: 2px solid var(--black);
 }

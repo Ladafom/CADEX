@@ -1,7 +1,7 @@
 .form__header {
   padding: 5px 15px;
   margin: 0 !important;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--black);
 }
 
 .custom-button-group { 
@@ -11,13 +11,13 @@
 
 .custom-form__button {
   margin: 0 !important;
-  border: 1px solid #000;
+  border: 1px solid var(--black);
   border-radius: 0;
   flex-grow: 1;
   cursor: pointer;
   font-weight: 400;
 }
 
-.custom-form__button:hover {
-  background-color: #c4c4c4;
+.custom-form__button:hover, .custom-form__button:focus  {
+  background-color: var(--hovered) !important;
 }

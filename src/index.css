@@ -1,3 +1,10 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --selected: #7F7FFF;
+  --hovered: #f3f4f6;
+}
+
 * {
   margin: 0;
   padding: 0;

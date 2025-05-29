@@ -1,13 +1,13 @@
 .custom-select {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--black);
   margin: 0 !important;
   padding: 5px;
 }
 
 .custom-select__button {
-  background: #fff;
+  background: var(--white);
   border: none;
   width: 200px;
   text-align: start;
@@ -15,8 +15,8 @@
 }
 
 .custom-select__popover {
-  border: 1px solid #000;
-  background: #fff;
+  border: 1px solid var(--black);
+  background: var(--white);
 }
 
 .custom-select__listbox {
@@ -26,24 +26,18 @@
 .custom-listitem {
   padding: 10px 15px;
   font-size: 14px;
-  color: #111827;
   cursor: pointer;
 }
 
 .custom-listitem:hover {
-  background: #f3f4f6;
-}
-
-.custom-listitem[data-focused] {
-  background: #e5e7eb;
+  background: var(--hovered);
 }
 
 .custom-listitem[data-selected] {
-  background: #4f46e5;
-  color: white;
-  font-weight: 500;
+  background: var(--selected);
+  color: var(--white);
 }
 
 .custom-listitem[data-selected]:hover {
-  background: #4338ca;
+  background: var(--selected);
 }
